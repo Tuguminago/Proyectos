@@ -2,7 +2,7 @@
 | Nombre | Cargo | URL GitHub |
 |---|:---:|---:|
 | Daniel Alquinga | 🐛 Desarrollador | https://github.com/superdavi/Practica1_Grupo2.git |
-| Daniel Baldeon | 🐛 Desarrollador |  |
+| Daniel Baldeon | 🐛 Desarrollador | https://github.com/debpdhs/Practica1_Grupo2 |
 | Bryan Miño | 🐛 Desarrollador | |
 | Wilson Segovia | 🐛 Desarrollador | https://github.com/segoviawilson/Practica1_Grupo2.git|
 | Leonardo Tuguminago | 🐛 Desarrollador | https://github.com/Tuguminago/Proyectos.git |
@@ -225,9 +225,9 @@ PracticaGrupo2/
 - **Seguridad**: Red aislada y variables de entorno para credenciales
 - **Mantenibilidad**: Configuración declarativa y reproducible
 
-##Conclusiones
+# Conclusiones
 
-Logros Alcanzados
+-Logros Alcanzados
 
 Implementación Exitosa de Microservicios: Se logró configurar un sistema distribuido utilizando Docker, separando la base de datos (MySQL) de la interfaz de administración (phpMyAdmin) en contenedores independientes.
 Gestión Eficiente de Redes: La creación de la red personalizada netw-vehiculos permitió la comunicación segura entre contenedores, eliminando la necesidad de exponer servicios innecesarios al host.
@@ -244,4 +244,6 @@ Beneficios Obtenidos
 - Reproducibilidad: El entorno se puede recrear exactamente en cualquier momento
 
 # Recomendaciones.
-    Se debe crear primero el volumen y luego el contenedor. 
+
+ - Es necesario crear primero la red Docker y luego el contenedor, ya que este inconveniente se presento al momento de ejecutar la practica. 
+ - Se debe validar que la versión de MySQL sea compatible con phpMyAdmin, ya que una incompatibilidad entre ambas versiones podría causar errores al intentar levantar el contenedor.
